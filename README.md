@@ -5,11 +5,9 @@
 
 ## Overview
 The notebook explores:
-
 - Implementation of a Bell pair circuit using standard quantum gates
 - Creation of the same Bell state using pulse-level control
 - Comparison of results between gate-based and pulse-based approaches
-
 ## Requirements
 Python 3.x
 Amazon Braket SDK
@@ -22,7 +20,6 @@ Matplotlib
 
  - Install required packages:
  - pip install amazon-braket-sdk numpy matplotlib
- - 
 ## Key Features
  - Standard Bell Pair Circuit
  - Implementation using Hadamard and CNOT gates
@@ -30,7 +27,6 @@ Matplotlib
  - Custom Hadamard gate decomposition
  - CZ gate using arbitrary waveforms
  - Phase correction for qubit frames
- - 
 ## Visualizations
  - CZ gate waveform
  - Complete pulse sequence
@@ -46,6 +42,6 @@ Comparison of measurement results
 
 ## Results
  - The notebook demonstrates successful creation of Bell states using both methods, with visualizations and analysis of the results.
- - 
+
 ### Cost Considerations
  - The notebook includes an estimation of costs for running quantum tasks. Be aware of potential charges when using the Rigetti quantum device through Amazon Braket.
